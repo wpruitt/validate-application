@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="validation.css">
+<head>
+	<title>Loan Application</title>
+</head>
+<body>
+	<form>
+		<ol>
+			<li>"First Name"</li>
+				<input type="text" name="FirstName">
+			<li>"Middle Name"</li>
+				<input type="text" name="MiddleName">
+			<li>"Last Name"</li>
+				<input type="text" name="LastName">
+			<li>"Address"</li>
+				<input type="text" name="Address">
+			<li>"Occupation"</li>
+				<input type="text" name="Occupation">
+			<li>"Employer"</li>
+				<input type="text" name="Employer">
+			<li>"Employer's Address"</li>
+				<input type="text" name="EmployerAddress">
+			<li>"Loan Type"<!--Commercial, Real Estate, Personal, Mortgage--></li>
+				<select>
+					<option value="commercial">Commercial</option>
+					<option value="realestate">Real Estate</option>
+					<option value="personal">Personal</option>
+					<option value="mortgage">Mortgage</option>
+				</select>
+			<li>"Requested Loan Amount"</li>
+				<input type="" name="RequestedLoanAmount">
+			<li>"Loan Length"<!--Radio Button 5, 15, 30yrs--></li>
+				<input type="Radio" name="length" value="5years" checked>5years<br>
+				<input type="Radio" name="length" value="15years">15years<br><input type="Radio" name="length" value="30years">30years<br>
+			<li>"Special Conditions"<!--Down Payment, Out-of-state Resident, Married, Co-signer--></li>
+				<input type="checkbox" name="DownPayment">Down Payment<br>
+				<input type="checkbox" name="Out-of-stateResident">Out-of-state Resident<br>
+				<input type="checkbox" name="Married">Married<br>
+				<input type="checkbox" name="Co-signer">Co-Signer
+			<li>"Additional Comments"</li>
+				<input type="text" name="AdditionalComments" size="40">
+			<li>"Email Address"</li>
+				<input type="email" name="EmailAddress">
+			<li>"Telephone Number"</li>
+				<input type="tel" name="TelephoneNumber">
+			<li>"LinkedIn URL"</li>
+				<input type="url" name="LinkedInURLds">
+		</ol>
+	</form>
+</body>
+</html>
